@@ -1,10 +1,14 @@
-### Command run during the course of this demo  
+### Commands ran during the course of this implementation  
 
 ##### Create The project
 `$ composer create-project symfony/skeleton symfart`  
 
 ##### On a different console terminal run PHP inbuilt server
 `$ php -S 127.0.1.1:9000 -t public`  
+
+##### For a better server run  
+`$ composer require server`  
+`$ php bin/console server:run`  or `bin/console server:run`  
     
 ##### Bring in Annotation package for routing  
 `$ composer require annotations`  
